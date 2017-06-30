@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		256250B21F06DC30007EDAFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256250B11F06DC30007EDAFC /* AppDelegate.swift */; };
+		256250B41F06DC30007EDAFC /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256250B31F06DC30007EDAFC /* GameView.swift */; };
+		256250B61F06DC30007EDAFC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256250B51F06DC30007EDAFC /* GameViewController.swift */; };
+		256250B81F06DC30007EDAFC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 256250B71F06DC30007EDAFC /* art.scnassets */; };
+		256250BA1F06DC30007EDAFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256250B91F06DC30007EDAFC /* Assets.xcassets */; };
+		256250BD1F06DC30007EDAFC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 256250BB1F06DC30007EDAFC /* MainMenu.xib */; };
+		256250C81F06DC31007EDAFC /* Fight_for_FlightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256250C71F06DC31007EDAFC /* Fight_for_FlightTests.swift */; };
+		256250D31F06DC31007EDAFC /* Fight_for_FlightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256250D21F06DC31007EDAFC /* Fight_for_FlightUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		256250C41F06DC31007EDAFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 256250A61F06DC30007EDAFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 256250AD1F06DC30007EDAFC;
+			remoteInfo = "Fight for Flight";
+		};
+		256250CF1F06DC31007EDAFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 256250A61F06DC30007EDAFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 256250AD1F06DC30007EDAFC;
+			remoteInfo = "Fight for Flight";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		256250AE1F06DC30007EDAFC /* Fight for Flight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fight for Flight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		256250B11F06DC30007EDAFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		256250B31F06DC30007EDAFC /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		256250B51F06DC30007EDAFC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		256250B71F06DC30007EDAFC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		256250B91F06DC30007EDAFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		256250BC1F06DC30007EDAFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256250BE1F06DC30007EDAFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		256250C31F06DC31007EDAFC /* Fight for FlightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fight for FlightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		256250C71F06DC31007EDAFC /* Fight_for_FlightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fight_for_FlightTests.swift; sourceTree = "<group>"; };
+		256250C91F06DC31007EDAFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		256250CE1F06DC31007EDAFC /* Fight for FlightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fight for FlightUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		256250D21F06DC31007EDAFC /* Fight_for_FlightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fight_for_FlightUITests.swift; sourceTree = "<group>"; };
+		256250D41F06DC31007EDAFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		256250AB1F06DC30007EDAFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256250C01F06DC31007EDAFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256250CB1F06DC31007EDAFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		256250A51F06DC30007EDAFC = {
+			isa = PBXGroup;
+			children = (
+				256250B01F06DC30007EDAFC /* Fight for Flight */,
+				256250C61F06DC31007EDAFC /* Fight for FlightTests */,
+				256250D11F06DC31007EDAFC /* Fight for FlightUITests */,
+				256250AF1F06DC30007EDAFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		256250AF1F06DC30007EDAFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				256250AE1F06DC30007EDAFC /* Fight for Flight.app */,
+				256250C31F06DC31007EDAFC /* Fight for FlightTests.xctest */,
+				256250CE1F06DC31007EDAFC /* Fight for FlightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		256250B01F06DC30007EDAFC /* Fight for Flight */ = {
+			isa = PBXGroup;
+			children = (
+				256250B11F06DC30007EDAFC /* AppDelegate.swift */,
+				256250B31F06DC30007EDAFC /* GameView.swift */,
+				256250B51F06DC30007EDAFC /* GameViewController.swift */,
+				256250B71F06DC30007EDAFC /* art.scnassets */,
+				256250B91F06DC30007EDAFC /* Assets.xcassets */,
+				256250BB1F06DC30007EDAFC /* MainMenu.xib */,
+				256250BE1F06DC30007EDAFC /* Info.plist */,
+			);
+			path = "Fight for Flight";
+			sourceTree = "<group>";
+		};
+		256250C61F06DC31007EDAFC /* Fight for FlightTests */ = {
+			isa = PBXGroup;
+			children = (
+				256250C71F06DC31007EDAFC /* Fight_for_FlightTests.swift */,
+				256250C91F06DC31007EDAFC /* Info.plist */,
+			);
+			path = "Fight for FlightTests";
+			sourceTree = "<group>";
+		};
+		256250D11F06DC31007EDAFC /* Fight for FlightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				256250D21F06DC31007EDAFC /* Fight_for_FlightUITests.swift */,
+				256250D41F06DC31007EDAFC /* Info.plist */,
+			);
+			path = "Fight for FlightUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		256250AD1F06DC30007EDAFC /* Fight for Flight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 256250D71F06DC31007EDAFC /* Build configuration list for PBXNativeTarget "Fight for Flight" */;
+			buildPhases = (
+				256250AA1F06DC30007EDAFC /* Sources */,
+				256250AB1F06DC30007EDAFC /* Frameworks */,
+				256250AC1F06DC30007EDAFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fight for Flight";
+			productName = "Fight for Flight";
+			productReference = 256250AE1F06DC30007EDAFC /* Fight for Flight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		256250C21F06DC31007EDAFC /* Fight for FlightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 256250DA1F06DC31007EDAFC /* Build configuration list for PBXNativeTarget "Fight for FlightTests" */;
+			buildPhases = (
+				256250BF1F06DC31007EDAFC /* Sources */,
+				256250C01F06DC31007EDAFC /* Frameworks */,
+				256250C11F06DC31007EDAFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				256250C51F06DC31007EDAFC /* PBXTargetDependency */,
+			);
+			name = "Fight for FlightTests";
+			productName = "Fight for FlightTests";
+			productReference = 256250C31F06DC31007EDAFC /* Fight for FlightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		256250CD1F06DC31007EDAFC /* Fight for FlightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 256250DD1F06DC31007EDAFC /* Build configuration list for PBXNativeTarget "Fight for FlightUITests" */;
+			buildPhases = (
+				256250CA1F06DC31007EDAFC /* Sources */,
+				256250CB1F06DC31007EDAFC /* Frameworks */,
+				256250CC1F06DC31007EDAFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				256250D01F06DC31007EDAFC /* PBXTargetDependency */,
+			);
+			name = "Fight for FlightUITests";
+			productName = "Fight for FlightUITests";
+			productReference = 256250CE1F06DC31007EDAFC /* Fight for FlightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		256250A61F06DC30007EDAFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Lachlan Lamont";
+				TargetAttributes = {
+					256250AD1F06DC30007EDAFC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					256250C21F06DC31007EDAFC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 256250AD1F06DC30007EDAFC;
+					};
+					256250CD1F06DC31007EDAFC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 256250AD1F06DC30007EDAFC;
+					};
+				};
+			};
+			buildConfigurationList = 256250A91F06DC30007EDAFC /* Build configuration list for PBXProject "Fight for Flight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 256250A51F06DC30007EDAFC;
+			productRefGroup = 256250AF1F06DC30007EDAFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				256250AD1F06DC30007EDAFC /* Fight for Flight */,
+				256250C21F06DC31007EDAFC /* Fight for FlightTests */,
+				256250CD1F06DC31007EDAFC /* Fight for FlightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		256250AC1F06DC30007EDAFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256250BA1F06DC30007EDAFC /* Assets.xcassets in Resources */,
+				256250B81F06DC30007EDAFC /* art.scnassets in Resources */,
+				256250BD1F06DC30007EDAFC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256250C11F06DC31007EDAFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256250CC1F06DC31007EDAFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		256250AA1F06DC30007EDAFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256250B41F06DC30007EDAFC /* GameView.swift in Sources */,
+				256250B61F06DC30007EDAFC /* GameViewController.swift in Sources */,
+				256250B21F06DC30007EDAFC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256250BF1F06DC31007EDAFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256250C81F06DC31007EDAFC /* Fight_for_FlightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256250CA1F06DC31007EDAFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256250D31F06DC31007EDAFC /* Fight_for_FlightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		256250C51F06DC31007EDAFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 256250AD1F06DC30007EDAFC /* Fight for Flight */;
+			targetProxy = 256250C41F06DC31007EDAFC /* PBXContainerItemProxy */;
+		};
+		256250D01F06DC31007EDAFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 256250AD1F06DC30007EDAFC /* Fight for Flight */;
+			targetProxy = 256250CF1F06DC31007EDAFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		256250BB1F06DC30007EDAFC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				256250BC1F06DC30007EDAFC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		256250D51F06DC31007EDAFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		256250D61F06DC31007EDAFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		256250D81F06DC31007EDAFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Fight for Flight/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LachlanLamont.Fight-for-Flight";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		256250D91F06DC31007EDAFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Fight for Flight/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LachlanLamont.Fight-for-Flight";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		256250DB1F06DC31007EDAFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Fight for FlightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LachlanLamont.Fight-for-FlightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fight for Flight.app/Contents/MacOS/Fight for Flight";
+			};
+			name = Debug;
+		};
+		256250DC1F06DC31007EDAFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Fight for FlightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LachlanLamont.Fight-for-FlightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fight for Flight.app/Contents/MacOS/Fight for Flight";
+			};
+			name = Release;
+		};
+		256250DE1F06DC31007EDAFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Fight for FlightUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LachlanLamont.Fight-for-FlightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Fight for Flight";
+			};
+			name = Debug;
+		};
+		256250DF1F06DC31007EDAFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Fight for FlightUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LachlanLamont.Fight-for-FlightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Fight for Flight";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		256250A91F06DC30007EDAFC /* Build configuration list for PBXProject "Fight for Flight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256250D51F06DC31007EDAFC /* Debug */,
+				256250D61F06DC31007EDAFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		256250D71F06DC31007EDAFC /* Build configuration list for PBXNativeTarget "Fight for Flight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256250D81F06DC31007EDAFC /* Debug */,
+				256250D91F06DC31007EDAFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		256250DA1F06DC31007EDAFC /* Build configuration list for PBXNativeTarget "Fight for FlightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256250DB1F06DC31007EDAFC /* Debug */,
+				256250DC1F06DC31007EDAFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		256250DD1F06DC31007EDAFC /* Build configuration list for PBXNativeTarget "Fight for FlightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256250DE1F06DC31007EDAFC /* Debug */,
+				256250DF1F06DC31007EDAFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 256250A61F06DC30007EDAFC /* Project object */;
+}

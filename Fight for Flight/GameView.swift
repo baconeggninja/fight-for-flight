@@ -33,7 +33,7 @@ class GameView: SCNView {
                 SCNTransaction.begin()
                 SCNTransaction.animationDuration = 0.5
                 
-                material.emission.contents = NSColor.black
+                material.emission.contents = NSColor.blue
                 
                 SCNTransaction.commit()
             }
